@@ -2,54 +2,54 @@
 
 #### 用户表:
 
-REATE TABLE `tb_user` (
-  `id` bigint(20) NOT NULL AUTO_INCREMENT,
-  `username` varchar(50) NOT NULL COMMENT '用户名',
-  `password` varchar(32) NOT NULL COMMENT '密码,
-  `phone` varchar(20) DEFAULT NULL COMMENT '注册手机号',
-  `email` varchar(50) DEFAULT NULL COMMENT '注册邮箱',
-  `created` datetime NOT NULL COMMENT '创建时间',
-  `updated` datetime NOT NULL,
-  `nick_name` varchar(50) DEFAULT NULL COMMENT '昵称',
-  `name` varchar(50) DEFAULT NULL COMMENT '真实姓名',
-  `status` varchar(1) DEFAULT NULL COMMENT '使用状态（Y正常 N非正常）',
-  `head_pic` varchar(150) DEFAULT NULL COMMENT '头像地址',
-  `qq` varchar(20) DEFAULT NULL COMMENT 'QQ号码',
-  `account_balance` decimal(10,0) DEFAULT NULL COMMENT '账户余额',
-  `is_mobile_check` varchar(1) DEFAULT '0' COMMENT '手机是否验证 （0否  1是）',
-  `is_email_check` varchar(1) DEFAULT '0' COMMENT '邮箱是否检测（0否  1是）',
-  `sex` varchar(1) DEFAULT '0' COMMENT '性别，1男，2女',
-  `birthday` datetime DEFAULT NULL COMMENT '生日',
-  `last_login_time` datetime DEFAULT NULL COMMENT '最后登录时间',
+CREATE TABLE `tb_user` (
+  `id` BIGINT(20) NOT NULL AUTO_INCREMENT,
+  `username` VARCHAR(50) NOT NULL COMMENT '用户名',
+  `password` VARCHAR(32) NOT NULL COMMENT '密码',
+  `phone` VARCHAR(20) DEFAULT NULL COMMENT '注册手机号',
+  `email` VARCHAR(50) DEFAULT NULL COMMENT '注册邮箱',
+  `created` DATETIME NOT NULL COMMENT '创建时间',
+  `updated` DATETIME NOT NULL,
+  `nick_name` VARCHAR(50) DEFAULT NULL COMMENT '昵称',
+  `name` VARCHAR(50) DEFAULT NULL COMMENT '真实姓名',
+  `status` VARCHAR(1) DEFAULT NULL COMMENT '使用状态（Y正常 N非正常）',
+  `head_pic` VARCHAR(150) DEFAULT NULL COMMENT '头像地址',
+  `qq` VARCHAR(20) DEFAULT NULL COMMENT 'QQ号码',
+  `account_balance` DECIMAL(10,0) DEFAULT NULL COMMENT '账户余额',
+  `is_mobile_check` VARCHAR(1) DEFAULT '0' COMMENT '手机是否验证 （0否  1是）',
+  `is_email_check` VARCHAR(1) DEFAULT '0' COMMENT '邮箱是否检测（0否  1是）',
+  `sex` VARCHAR(1) DEFAULT '0' COMMENT '性别，1男，2女',
+  `birthday` DATETIME DEFAULT NULL COMMENT '生日',
+  `last_login_time` DATETIME DEFAULT NULL COMMENT '最后登录时间',
   PRIMARY KEY (`id`),
   UNIQUE KEY `username` (`username`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8 COMMENT='用户表'
+) ENGINE=INNODB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8 COMMENT='用户表'
 
 #### 商品表
 
-REATE TABLE `tb_item` (
-  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '商品id，同时也是商品编号',
-  `title` varchar(100) NOT NULL COMMENT '商品标题',
-  `sell_point` varchar(500) DEFAULT NULL COMMENT '商品卖点',
-  `price` decimal(20,2) NOT NULL COMMENT '商品价格，单位为：元',
-  `stock_count` int(10) DEFAULT NULL,
-  `num` int(10) NOT NULL COMMENT '库存数量',
-  `barcode` varchar(30) DEFAULT NULL COMMENT '商品条形码',
-  `image` varchar(2000) DEFAULT NULL COMMENT '商品图片',
-  `categoryId` bigint(10) NOT NULL COMMENT '所属类目，叶子类目',
-  `status` varchar(1) NOT NULL COMMENT '商品状态，1-正常，2-下架，3-删除',
-  `create_time` datetime NOT NULL COMMENT '创建时间',
-  `update_time` datetime NOT NULL COMMENT '更新时间',
-  `cost_pirce` decimal(10,2) DEFAULT NULL,
-  `market_price` decimal(10,2) DEFAULT NULL,
-  `is_default` varchar(1) DEFAULT NULL,
-  `goods_id` bigint(20) DEFAULT NULL,
-  `category` varchar(200) DEFAULT NULL,
+CREATE TABLE `tb_item` (
+  `id` BIGINT(20) NOT NULL AUTO_INCREMENT COMMENT '商品id，同时也是商品编号',
+  `title` VARCHAR(100) NOT NULL COMMENT '商品标题',
+  `sell_point` VARCHAR(500) DEFAULT NULL COMMENT '商品卖点',
+  `price` DECIMAL(20,2) NOT NULL COMMENT '商品价格，单位为：元',
+  `stock_count` INT(10) DEFAULT NULL,
+  `num` INT(10) NOT NULL COMMENT '库存数量',
+  `barcode` VARCHAR(30) DEFAULT NULL COMMENT '商品条形码',
+  `image` VARCHAR(2000) DEFAULT NULL COMMENT '商品图片',
+  `categoryId` BIGINT(10) NOT NULL COMMENT '所属类目，叶子类目',
+  `status` VARCHAR(1) NOT NULL COMMENT '商品状态，1-正常，2-下架，3-删除',
+  `create_time` DATETIME NOT NULL COMMENT '创建时间',
+  `update_time` DATETIME NOT NULL COMMENT '更新时间',
+  `cost_pirce` DECIMAL(10,2) DEFAULT NULL,
+  `market_price` DECIMAL(10,2) DEFAULT NULL,
+  `is_default` VARCHAR(1) DEFAULT NULL,
+  `goods_id` BIGINT(20) DEFAULT NULL,
+  `category` VARCHAR(200) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `cid` (`categoryId`),
   KEY `status` (`status`),
   KEY `updated` (`update_time`)
-) ENGINE=InnoDB AUTO_INCREMENT=1369463 DEFAULT CHARSET=utf8 COMMENT='商品表'
+) ENGINE=INNODB AUTO_INCREMENT=1369463 DEFAULT CHARSET=utf8 COMMENT='商品表'
 
 
 
