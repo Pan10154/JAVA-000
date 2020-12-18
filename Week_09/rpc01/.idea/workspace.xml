@@ -16,6 +16,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Pull.Settings">
     <option name="BRANCH" value="main" />
   </component>
@@ -45,7 +52,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/rpcfx-demo-provider/src/main/java/io/kimmking/rpcfx/demo/api" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -54,6 +61,11 @@
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\极客java训练营\jkproject\rpc\07rpc\rpc01\rpcfx-demo-provider\src\main\java\io\kimmking\rpcfx\demo\api" />
+    </key>
   </component>
   <component name="RunManager" selected="Spring Boot.RpcfxClientApplication (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -64,6 +76,17 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,6 +165,7 @@
       <workItem from="1608132351153" duration="2986000" />
       <workItem from="1608215142896" duration="2228000" />
       <workItem from="1608304712602" duration="27000" />
+      <workItem from="1608304882273" duration="3210000" />
     </task>
     <servers />
   </component>
@@ -149,6 +173,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1030" y="232" key="#Auto_Import" timestamp="1608305912555">
+      <screen x="0" y="0" width="2560" height="1406" />
+    </state>
+    <state x="1030" y="232" key="#Auto_Import/-1920.349.1920.1046/0.0.2560.1406@0.0.2560.1406" timestamp="1608305912555" />
     <state x="1085" y="408" key="#com.intellij.ide.util.MemberChooser" timestamp="1608133411216">
       <screen x="0" y="0" width="2560" height="1406" />
     </state>
