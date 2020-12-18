@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="51621189-2494-4b3a-85a5-fdd2504dc9b6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/rpcfx-core/src/main/java/io/kimmking/rpcfx/api/RpcfxRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpcfx-core/src/main/java/io/kimmking/rpcfx/api/RpcfxRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-core/src/main/java/io/kimmking/rpcfx/api/RpcfxResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpcfx-core/src/main/java/io/kimmking/rpcfx/api/RpcfxResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-core/src/main/java/io/kimmking/rpcfx/client/Rpcfx.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpcfx-core/src/main/java/io/kimmking/rpcfx/client/Rpcfx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-core/src/main/java/io/kimmking/rpcfx/server/RpcfxInvoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpcfx-core/src/main/java/io/kimmking/rpcfx/server/RpcfxInvoker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-demo-provider/src/main/java/io/kimmking/rpcfx/demo/provider/DemoResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpcfx-demo-provider/src/main/java/io/kimmking/rpcfx/demo/provider/DemoResolver.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="main" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\Program\apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\Program\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lYySwBuuWxf3GfbDX5ikN1ssUJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/rpcfx-demo-provider/src/main/java/io/kimmking/rpcfx/demo/api" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\极客java训练营\jkproject\rpc\07rpc\rpc01\rpcfx-demo-provider\src\main\java\io\kimmking\rpcfx\demo\api" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.RpcfxClientApplication (1)">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RpcfxClientApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rpcfx-demo-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.kimmking.rpcfx.demo.consumer.RpcfxClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RpcfxClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rpcfx-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.kimmking.rpcfx.client.RpcfxClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RpcfxServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rpcfx-demo-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.kimmking.rpcfx.demo.provider.RpcfxServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RpcfxServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rpcfx-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.kimmking.rpcfx.server.RpcfxServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\10154\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51621189-2494-4b3a-85a5-fdd2504dc9b6" name="Default Changelist" comment="" />
+      <created>1607788324405</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607788324405</updated>
+      <workItem from="1607788325461" duration="2141000" />
+      <workItem from="1607826319269" duration="4095000" />
+      <workItem from="1607833877133" duration="270000" />
+      <workItem from="1607851987023" duration="686000" />
+      <workItem from="1607875380728" duration="537000" />
+      <workItem from="1608046784378" duration="2341000" />
+      <workItem from="1608132351153" duration="2986000" />
+      <workItem from="1608215142896" duration="2228000" />
+      <workItem from="1608304712602" duration="27000" />
+      <workItem from="1608304882273" duration="3210000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1030" y="232" key="#Auto_Import" timestamp="1608305912555">
+      <screen x="0" y="0" width="2560" height="1406" />
+    </state>
+    <state x="1030" y="232" key="#Auto_Import/-1920.349.1920.1046/0.0.2560.1406@0.0.2560.1406" timestamp="1608305912555" />
+    <state x="1085" y="408" key="#com.intellij.ide.util.MemberChooser" timestamp="1608133411216">
+      <screen x="0" y="0" width="2560" height="1406" />
+    </state>
+    <state x="1085" y="408" key="#com.intellij.ide.util.MemberChooser/-1920.349.1920.1046/0.0.2560.1406@0.0.2560.1406" timestamp="1608133411216" />
+    <state x="1060" y="457" key="FileChooserDialogImpl" timestamp="1607788982417">
+      <screen x="0" y="0" width="2560" height="1406" />
+    </state>
+    <state x="1060" y="457" key="FileChooserDialogImpl/-1920.349.1920.1046/0.0.2560.1406@0.0.2560.1406" timestamp="1607788982417" />
+    <state width="1258" height="445" key="GridCell.Tab.0.bottom" timestamp="1608136203875">
+      <screen x="0" y="0" width="2560" height="1406" />
+    </state>
+    <state width="1258" height="445" key="GridCell.Tab.0.bottom/-1920.349.1920.1046/0.0.2560.1406@0.0.2560.1406" timestamp="1608136203875" />
+    <state width="1258" height="445" key="GridCell.Tab.0.center" timestamp="1608136203874">
+      <screen x="0" y="0" width="2560" height="1406" />
+    </state>
+    <state width="1258" height="445" key="GridCell.Tab.0.center/-1920.349.1920.1046/0.0.2560.1406@0.0.2560.1406" timestamp="1608136203874" />
+    <state width="1258" height="445" key="GridCell.Tab.0.left" timestamp="1608136203874">
+      <screen x="0" y="0" width="2560" height="1406" />
+    </state>
+    <state width="1258" height="445" key="GridCell.Tab.0.left/-1920.349.1920.1046/0.0.2560.1406@0.0.2560.1406" timestamp="1608136203874" />
+    <state width="1258" height="445" key="GridCell.Tab.0.right" timestamp="1608136203875">
+      <screen x="0" y="0" width="2560" height="1406" />
+    </state>
+    <state width="1258" height="445" key="GridCell.Tab.0.right/-1920.349.1920.1046/0.0.2560.1406@0.0.2560.1406" timestamp="1608136203875" />
+    <state width="1258" height="445" key="GridCell.Tab.1.bottom" timestamp="1608136203875">
+      <screen x="0" y="0" width="2560" height="1406" />
+    </state>
+    <state width="1258" height="445" key="GridCell.Tab.1.bottom/-1920.349.1920.1046/0.0.2560.1406@0.0.2560.1406" timestamp="1608136203875" />
+    <state width="1258" height="445" key="GridCell.Tab.1.center" timestamp="1608136203875">
+      <screen x="0" y="0" width="2560" height="1406" />
+    </state>
+    <state width="1258" height="445" key="GridCell.Tab.1.center/-1920.349.1920.1046/0.0.2560.1406@0.0.2560.1406" timestamp="1608136203875" />
+    <state width="1258" height="445" key="GridCell.Tab.1.left" timestamp="1608136203875">
+      <screen x="0" y="0" width="2560" height="1406" />
+    </state>
+    <state width="1258" height="445" key="GridCell.Tab.1.left/-1920.349.1920.1046/0.0.2560.1406@0.0.2560.1406" timestamp="1608136203875" />
+    <state width="1258" height="445" key="GridCell.Tab.1.right" timestamp="1608136203875">
+      <screen x="0" y="0" width="2560" height="1406" />
+    </state>
+    <state width="1258" height="445" key="GridCell.Tab.1.right/-1920.349.1920.1046/0.0.2560.1406@0.0.2560.1406" timestamp="1608136203875" />
+    <state width="1258" height="494" key="GridCell.Tab.2.bottom" timestamp="1608136203858">
+      <screen x="0" y="0" width="2560" height="1406" />
+    </state>
+    <state width="1258" height="494" key="GridCell.Tab.2.bottom/-1920.349.1920.1046/0.0.2560.1406@0.0.2560.1406" timestamp="1608136203858" />
+    <state width="1258" height="494" key="GridCell.Tab.2.center" timestamp="1608136203858">
+      <screen x="0" y="0" width="2560" height="1406" />
+    </state>
+    <state width="1258" height="494" key="GridCell.Tab.2.center/-1920.349.1920.1046/0.0.2560.1406@0.0.2560.1406" timestamp="1608136203858" />
+    <state width="1258" height="494" key="GridCell.Tab.2.left" timestamp="1608136203858">
+      <screen x="0" y="0" width="2560" height="1406" />
+    </state>
+    <state width="1258" height="494" key="GridCell.Tab.2.left/-1920.349.1920.1046/0.0.2560.1406@0.0.2560.1406" timestamp="1608136203858" />
+    <state width="1258" height="494" key="GridCell.Tab.2.right" timestamp="1608136203858">
+      <screen x="0" y="0" width="2560" height="1406" />
+    </state>
+    <state width="1258" height="494" key="GridCell.Tab.2.right/-1920.349.1920.1046/0.0.2560.1406@0.0.2560.1406" timestamp="1608136203858" />
+    <state x="860" y="437" key="IDE.errors.dialog" timestamp="1607789075508">
+      <screen x="0" y="0" width="2560" height="1406" />
+    </state>
+    <state x="860" y="437" key="IDE.errors.dialog/-1920.349.1920.1046/0.0.2560.1406@0.0.2560.1406" timestamp="1607789075508" />
+    <state x="995" y="404" key="RollbackChangesDialog" timestamp="1608049089049">
+      <screen x="0" y="0" width="2560" height="1406" />
+    </state>
+    <state x="995" y="404" key="RollbackChangesDialog/-1920.349.1920.1046/0.0.2560.1406@0.0.2560.1406" timestamp="1608049089049" />
+    <state x="781" y="347" key="SettingsEditor" timestamp="1608133613965">
+      <screen x="0" y="0" width="2560" height="1406" />
+    </state>
+    <state x="781" y="347" key="SettingsEditor/-1920.349.1920.1046/0.0.2560.1406@0.0.2560.1406" timestamp="1608133613965" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rpcfx-server/src/main/java/io/kimmking/rpcfx/server/RpcfxServerApplication.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
